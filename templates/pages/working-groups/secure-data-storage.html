@@ -1,0 +1,91 @@
+{% set name = "Secure Data Storage" %}
+{% set logo = "box" %}
+{% set title = "Secure Data Storage Working Group" %}
+{% set scope = "Create one or more specifications to establish a foundational layer for secure data storage (including personal data), specifically
+data models for storage and transport, syntax, data at rest protection, CRUD API, access control, synchronization, and at least a
+minimum viable HTTP-based interface compatible with W3C DIDs/VCs." %}
+{% set charters = {
+    "SDS WG documentation": {
+      links: [
+        {
+          text: "SDS WG Charter",
+          href: "https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_SDS_WG_charter_v1.pdf"
+        },
+        {
+          text: "SDS WG Operating Addendum",
+          href: "https://github.com/decentralized-identity/org/blob/master/Org%20documents/WG%20documents/DIF_SDS_WG_Operating_Addendum_v1.pdf"
+        },
+        {
+          text: "Mailing list",
+          href: "https://dif.groups.io/g/sds-wg"
+        },
+        {
+          text: "Meeting page",
+          href: "https://github.com/decentralized-identity/confidential-storage/blob/master/agenda.md"
+        }
+      ]
+    }
+  }
+%}
+{% set repoTag = "wg-sds" %}
+{% set projects = {
+    "Secure Data Storage Use Cases and Requirements v0.9": {
+      desc: "[INFORMATIVE]"
+    },
+    "Secure Data Storage v0.9 - Data Model, Representations, and HTTP API": {
+      desc: "[NORMATIVE]"
+    },
+    "Secure Data Storage Test Suite ": {
+      desc: "[INFORMATIVE]"
+    },
+    "At least one DIF-approved Secure Data Storage v0.9 Implementation ": {
+      desc: "[INFORMATIVE]"
+    }
+  }
+%}
+
+{% set chairs = {
+  "Kaliya Joung": {
+      title: "x @ x ",
+      photo: "/images/photos/kaliya-young.jpg",
+      linkedin: "kaliya",
+      twitter: "IdentityWoman"
+    },
+    "Tobias Looker": {
+        title: "OSS @ Mattr ",
+        photo: "/images/photos/tobias-looker.jpg",
+        linkedin: "tplooker",
+        twitter: "tplooker"
+    },
+    "Dmitri Zagidulin": {
+        title: "Distributed Sys Engineer @ DigitalBazaar ",
+        photo: "/images/photos/dmitri-zagidulin.jpg",
+        linkedin: "dzagidulin",
+        twitter: "codenamedmitri"
+    }
+  }
+%}
+
+{% set editors = {
+  "Daniel Buchner": {
+      title: "Decentralized Identity @ Microsoft",
+      photo: "/images/photos/daniel-buchner.jpg",
+      linkedin: "dbuchner",
+      twitter: "csuwildcat"
+    },
+    "Orie Steele ": {
+      title: "Chief Technical Officer @ Transmute",
+      photo: "/images/photos/orie-steele.jpg",
+      linkedin: "OR13b",
+      twitter: "OR13b"
+    },
+    "Manu Sporny": {
+        title: "Founder @ DigitalBazaar ",
+        photo: "/images/photos/manu-sporny.jpg",
+        linkedin: "manusporny",
+        twitter: "manusporny"
+    }
+  }
+%}
+
+{% extends "wg_editor.html" %}

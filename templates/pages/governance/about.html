@@ -1,0 +1,169 @@
+{% set name = "About" %}
+{% set logo = "login_screen" %}
+{% set title = "Steering Committee" %}
+{% set scope = "Enable a world where decentralized identity solutions allow entities to gain control over their identities and allow trusted interactions." %}
+{% set Mission1 = "The Decentralized Identity Foundation (DIF) exists to advance the interests of the decentralized identity community, including performing research and development to advance “pre-competitive” technical foundations towards established interoperable, global standards." %}
+
+
+{% set projects = {
+    "DIF Charter": {
+      desc: "This “Project Charter” establishes the terms under which this Project operates ",
+      links: [
+        {
+          text: "Charter",
+            href: "https://bit.ly/DIF_project_charter3"
+        }
+      ]
+    },
+    "DIF Operating Addendum": {
+      desc: "This document governs DIF's governing bodies",
+      links: [
+        {
+          text: "Operating Addendum",
+            href: "https://github.com/decentralized-identity/org/blob/c06c17bd2df58633eb74d9d5237281c79d9b676e/Org%20documents/Membership%20agreements/DIF%20Governance%20-%20Operating%20Addendum%20-%2020210304.pdf"
+        },
+        {
+          text: "Steering Committee election process",
+            href: "https://github.com/decentralized-identity/org/blob/c06c17bd2df58633eb74d9d5237281c79d9b676e/Org%20documents/Membership%20agreements/DIF%20Steering%20Committee%20Election%20Process_20210304%20-%20approved.pdf"
+        },
+        {
+          text: "DIF Grants - Operating Addendum",
+            href: "https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/DIF%20Grants%20Operating%20Addendum_20210402.pdf"
+        }
+      ]
+    },
+    "DIF Participation Matrix": {
+      desc: "The list of benefits of DIF membership and other participation formats offered by the foundation",
+      links: [
+        {
+          text: "Participation Matrix",
+          href: "https://bit.ly/DIF_participationmatrix_5"
+        }
+      ]
+    },
+    "DIF Grants": {
+      desc: "The list of benefits of DIF membership and other participation formats offered by the foundation",
+      links: [
+        {
+          text: "Grants Operating Addendum",
+          href: "https://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/DIF%20Grants%20Operating%20Addendum_20210402.pdf"
+        }
+      ]
+    },
+    "DIF Subsidiary assesment process": {
+      desc: "As recognition of this variety of legal and liability structures, DIF Steering Committee considers
+      the following when a subsidiary of a large corporation applies for DIF membership.",
+      links: [
+        {
+          text: "Subsidiary assesment",
+          href: "hhttps://github.com/decentralized-identity/decentralized-identity.github.io/blob/master/assets/Subsidiary%20rule%20for%20DIF%20Associate%20membership-%2020210401.pdf"
+        }
+      ]
+    },
+    "DIF Code of Conduct": {
+      desc: "Creating an open, healthy and productive culture where members and the community can build and grow together. This is a living document, feel free to comment.",
+      links: [
+        {
+          text: "Code of Conduct",
+          href: "https://bit.ly/DIF_code_of_conduct"
+        },
+        {
+          text: "GitHub - Code of Conduct",
+          href: "https://github.com/decentralized-identity/org/blob/master/code-of-conduct.md"
+        }
+      ]
+    },
+    "Steering Committee  minutes": {
+      desc: "A public document for the minutes and decisions made by the Steering Committee.",
+      links: [
+        {
+          text: "SC minutes",
+          href: "https://bit.ly/SC_meeting_minutes"
+        }
+      ]
+    },
+    "DIF Brand Guidelines": {
+      desc: "Guidelines and logos to represent DIF in the public",
+      links: [
+        {
+          text: "Brand Guidelines",
+          href: "https://bit.ly/3mnfwoW"
+        }
+      ]
+    }
+  }
+%}
+
+{% set chairs = {
+    "Kendra Bittner": {
+      title: "Sr Director @ Workday",
+      linkedin: "kendrabittner",
+      twitter: "kdkendratweet"
+    }, 
+    "Daniel Buchner": {
+      title: "Decentralized Identity @ Microsoft",
+      linkedin: "dbuchner",
+      twitter: "csuwildcat"
+    },
+    "Juan Caballero": {
+      title: "Product  @  Spruce",
+      linkedin: "juan-caballero",
+      twitter: "by_caballero"
+    },
+    "Sam Curren": {
+      title: "Technology Guy ",
+      linkedin: "samcurren",
+      twitter: "TelegramSam"
+    },
+    "Karyl Fowler": {
+      title: "CEO @ Transmute",
+      linkedin: "karylfowler",
+      twitter: "TheKaryl"
+    },
+    "Rouven Heck": {
+      title: "Head of Identity @ Consensys",
+      linkedin: "rouvenheck",
+      twitter: "rh7"
+    },
+    "Joachim Lohkamp": {
+      title: "CEO @ Jolocom",
+      linkedin: "joachimlohkamp",
+      twitter: "JoachimLohkamp"
+    },
+    "Catherine Nabbala Seppuuya": {
+      title: "Business @ FINEMA",
+      linkedin: "catherine-nabbala",
+      twitter: "CatherineNabba1"
+    },
+    "Markus Sabadello": {
+      title: "Founder @ DanubeTech",
+      linkedin: "markus-sabadello-353a0821",
+      twitter: "peacekeeper"
+    },
+    "Brent Zundel": {
+      title: "Cryptography @ Evernym",
+      linkedin: "bzundel",
+      twitter: "brent_zundel"
+    }
+  }
+%}
+
+<h2 class="font-alt"><a href="https://www.linkedin.com/in/catherine-nabbala/"> Catherine Nabbala Seppuuya</a></h2>
+<h5 class="font-alt"><a href="https://finema.co/">Finema</a></h5>
+
+{% set team = {
+    "Balázs Némethi": {
+      title: "Operations at DIF / Taqanu",
+      linkedin: "balazsnemethi",
+      twitter: "nembal"
+    },
+    "Chris Kelly": {
+      title: "Communications @ DIF ",
+      linkedin: "chris-kelly-b5b539b4"
+    }
+  }
+%}
+
+
+
+{% extends "governance.html" %}
